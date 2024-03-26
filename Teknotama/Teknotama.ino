@@ -136,4 +136,5 @@ void loop() {
   }
 
   ws.cleanupClients(); // Cleanup WebSocket clients
+  digitalWrite(relay, relayState);
 }
